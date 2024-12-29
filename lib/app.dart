@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:runaple_app/core/routes/app_router.dart';
 
-class App extends StatefulWidget {
-  const App({super.key});
+class RunapleApp extends StatefulWidget {
+  const RunapleApp({super.key});
 
   @override
-  State<App> createState() => _AppState();
+  State<RunapleApp> createState() => _RunapleAppState();
 }
 
-class _AppState extends State<App> {
+class _RunapleAppState extends State<RunapleApp> {
 
   @override
   Widget build(BuildContext context) {
