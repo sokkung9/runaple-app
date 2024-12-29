@@ -12,9 +12,9 @@ class _RunapleAppState extends State<RunapleApp> {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: "Application",
-      initialRoute: '/',
+    return MaterialApp.router(
+      title: "Runaple",
+      routerConfig: AppRouter.router,
       theme: ThemeData(
         fontFamily: 'NotoSerifKR',
         splashColor: Colors.transparent,
@@ -24,7 +24,6 @@ class _RunapleAppState extends State<RunapleApp> {
         ),
         useMaterial3: true,
       ),
-      home: Container(),
     );
   }
 }
