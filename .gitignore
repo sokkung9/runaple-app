@@ -52,4 +52,10 @@ google-services.json
 GoogleService-Info.plist
 firebase.json
 
+functions/node_modules/
+# functions
+firebase-debug.log
+.firebase/
+*.log
+
 .env
